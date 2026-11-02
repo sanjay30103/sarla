@@ -1,0 +1,17 @@
+{
+  "name": "sarla-restaurant",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i assets/css/app.css -o assets/css/style.css --minify",
+    "dev": "tailwindcss -i assets/css/app.css -o assets/css/style.css --watch",
+    "serve": "php -S localhost:8000",
+    "export": "./export-static.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Sarla — Indian Kitchen & Bar website (PHP + Tailwind CSS v4)",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
