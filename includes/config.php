@@ -40,5 +40,5 @@ const SITE = [
     'instagram_handle' => '@sarla.noida',
     'facebook'         => 'https://www.facebook.com/',
 
-    'credit' => 'Pulse n Pixels',
+    'credit' => 'Wishtml',
 ];
